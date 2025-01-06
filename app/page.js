@@ -20,34 +20,34 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is JIRA?",
+    question: "What is SCRUM?",
     answer:
-      "JIRA is a powerful project management tool designed to help teams organize, track, and manage their work efficiently. It combines intuitive design with robust features to streamline your workflow and boost productivity.",
+      "SCRUM is a powerful project management tool designed to help teams organize, track, and manage their work efficiently. It combines intuitive design with robust features to streamline your workflow and boost productivity.",
   },
   {
-    question: "How does JIRA compare to other project management tools?",
+    question: "How does SCRUM compare to other project management tools?",
     answer:
-      "JIRA offers a unique combination of intuitive design, powerful features, and flexibility. Unlike other tools, we focus on providing a seamless experience for both agile and traditional project management methodologies, making it versatile for various team structures and project types.",
+      "SCRUM offers a unique combination of intuitive design, powerful features, and flexibility. Unlike other tools, we focus on providing a seamless experience for both agile and traditional project management methodologies, making it versatile for various team structures and project types.",
   },
   {
-    question: "Is JIRA suitable for small teams?",
+    question: "Is SCRUM suitable for small teams?",
     answer:
-      "Absolutely! JIRA is designed to be scalable and flexible. It works great for small teams and can easily grow with your organization as it expands. Our user-friendly interface ensures that teams of any size can quickly adapt and start benefiting from JIRA's features.",
+      "Absolutely! SCRUM is designed to be scalable and flexible. It works great for small teams and can easily grow with your organization as it expands. Our user-friendly interface ensures that teams of any size can quickly adapt and start benefiting from SCRUM's features.",
   },
   {
-    question: "What key features does JIRA offer?",
+    question: "What key features does SCRUM offer?",
     answer:
-      "JIRA provides a range of powerful features including intuitive Kanban boards for visualizing workflow, robust sprint planning tools for agile teams, comprehensive reporting for data-driven decisions, customizable workflows, time tracking, and team collaboration tools. These features work seamlessly together to enhance your project management experience.",
+      "SCRUM provides a range of powerful features including intuitive Kanban boards for visualizing workflow, robust sprint planning tools for agile teams, comprehensive reporting for data-driven decisions, customizable workflows, time tracking, and team collaboration tools. These features work seamlessly together to enhance your project management experience.",
   },
   {
-    question: "Can JIRA handle multiple projects simultaneously?",
+    question: "Can SCRUM handle multiple projects simultaneously?",
     answer:
-      "Yes, JIRA is built to manage multiple projects concurrently. You can easily switch between projects, and get a bird's-eye view of all your ongoing work. This makes JIRA ideal for organizations juggling multiple projects or clients.",
+      "Yes, SCRUM is built to manage multiple projects concurrently. You can easily switch between projects, and get a bird's-eye view of all your ongoing work. This makes SCRUM ideal for organizations juggling multiple projects or clients.",
   },
   {
     question: "Is there a learning curve for new users?",
     answer:
-      "While JIRA is packed with features, we've designed it with user-friendliness in mind. New users can quickly get up to speed thanks to our intuitive interface, helpful onboarding process, and comprehensive documentation.",
+      "While SCRUM is packed with features, we've designed it with user-friendliness in mind. New users can quickly get up to speed thanks to our intuitive interface, helpful onboarding process, and comprehensive documentation.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function Home() {
         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold gradient-title pb-6 flex flex-col">
           Streamline Your Workflow <br />
           <span className="flex mx-auto gap-3 sm:gap-4 items-center">
-            with JIRA
+            with SCRUM
           </span>
         </h1>
         <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
@@ -153,7 +153,7 @@ export default function Home() {
             Ready to Transform Your Workflow?
           </h3>
           <p className="text-xl mb-12">
-            Join thousands of teams already using JIRA to streamline their
+            Join thousands of teams already using SCRUM to streamline their
             projects and boost productivity.
           </p>
           <Link href="/onboarding">
